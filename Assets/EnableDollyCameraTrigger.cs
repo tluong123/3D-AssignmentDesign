@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class EnableDollyCameraTrigger : MonoBehaviour
 {
-    public GameObject dollyCamera;  // Assign the DollyCamera GameObject in the Inspector
+    public GameObject dollyCamera;
+      // Assign the DollyCamera GameObject in the Inspector
 
     private void OnTriggerEnter(Collider other)
     {
