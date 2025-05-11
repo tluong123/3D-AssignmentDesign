@@ -47,8 +47,6 @@ public class MovingKid : MonoBehaviour
 
 void OnCollisionStay(Collision collision)
 {
-    Debug.Log("Collided with: " + collision.gameObject.name);
-
     if (collision.gameObject.CompareTag("Ground"))
     {
         isGrounded = true;
